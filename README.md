@@ -1,10 +1,14 @@
-# TypeScript Boilerplate for Katas
+# Vanilla TypeScript Webapp
 
-You can use it for Coding-Dojos, Katas or **reference** to build a new project.
+Based on [this repository](https://github.com/lean-mind/typescript-boilerplate), modified with the help of [this post](https://medium.com/@salathielgenese/setup-typescript-for-modern-browser-a75d699673f6)
 
-This boilerplate include:
+# Run tests
 
-- 💬 TypeScript 3.6
-- 📙 Babel 7
-- ✅ Jest 24
-- 💅 Prettier & TSLint
+`npm run test`
+
+# Run in the browser
+
+`npm run build`
+
+Serve index.html file via a local webserver. IntelliJ and other IDEs provide you with a built-in lightweight web server for hmtl files, thus, you may just launch the browser from the IDE.
+
